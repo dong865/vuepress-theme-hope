@@ -3,7 +3,7 @@
  * @Author: Mr.Hope
  * @Date: 2019-10-20 16:48:11
  * @LastEditors  : Mr.Hope
- * @LastEditTime : 2020-01-13 17:53:57
+ * @LastEditTime : 2020-01-13 22:51:37
  * @Description: 插件配置
  */
 import * as moment from 'moment';
@@ -91,7 +91,7 @@ const pluginConfig = (options: any): PluginConfig[] => {
     ['@mr-hope/components'],
 
     /** 分享插件 */
-    // ['@mr-hope/share', options.share],
+    ['@mr-hope/share', options.share],
 
     /** Markdown 增强插件 */
     ['md-enhance', options.markdown || false],

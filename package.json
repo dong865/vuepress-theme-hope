@@ -40,6 +40,9 @@
     "md-enhance-test:serve": "yarn workspace vuepress-plugin-md-enhance test:serve",
     "md-enhance-test:clean-serve": "yarn workspace vuepress-plugin-md-enhance test:clean-serve",
     "md-enhance-test:build": "yarn workspace vuepress-plugin-md-enhance test:build",
+    "share-docs:serve": "yarn workspace share-docs serve",
+    "share-docs:clean-serve": "yarn workspace share-docs clean-serve",
+    "share-docs:build": "yarn workspace share-docs build",
     "shared-utils:test": "yarn workspace @mr-hope/vuepress-shared-utils test",
     "theme-test:serve": "yarn workspace test serve",
     "theme-test:clean-serve": "yarn workspace test clean-serve",
@@ -47,8 +50,8 @@
     "build:all": "lerna run build --parallel"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.15.0",
-    "@typescript-eslint/parser": "^2.15.0",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
     "@vue/cli-plugin-unit-mocha": "^4.1.2",
     "@vue/cli-service": "^4.1.2",
     "@vue/eslint-config-prettier": "^6.0.0",
