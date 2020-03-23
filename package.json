@@ -38,6 +38,9 @@
     "md-enhance:test": "yarn workspace vuepress-plugin-md-enhance test",
     "md-enhance-test:serve": "yarn workspace vuepress-plugin-md-enhance test:serve",
     "md-enhance-test:build": "yarn workspace vuepress-plugin-md-enhance test:build",
+    "share-docs:serve": "yarn workspace share-docs serve",
+    "share-docs:clean-serve": "yarn workspace share-docs clean-serve",
+    "share-docs:build": "yarn workspace share-docs build",
     "shared-utils:test": "yarn workspace @mr-hope/vuepress-shared-utils test",
     "build:all": "lerna run build --parallel"
   },

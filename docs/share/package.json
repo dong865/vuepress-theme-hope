@@ -1,0 +1,17 @@
+{
+  "name": "share-docs",
+  "private": true,
+  "version": "0.1.0-rc.3",
+  "description": "Docs for @mr-hope/vuepress-plugin-share",
+  "scripts": {
+    "serve": "vuepress dev src",
+    "clean-serve": "vuepress dev src --no-cache",
+    "build": "vuepress build src"
+  },
+  "author": "Mr.Hope",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.4.0",
+    "vuepress-theme-hope": "^0.1.0-rc.3"
+  }
+}

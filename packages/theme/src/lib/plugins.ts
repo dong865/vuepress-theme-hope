@@ -3,7 +3,7 @@
  * @Author: Mr.Hope
  * @Date: 2019-10-20 16:48:11
  * @LastEditors: Mr.Hope
- * @LastEditTime: 2020-03-23 12:09:25
+ * @LastEditTime: 2020-03-23 15:09:52
  * @Description: 插件配置
  */
 import * as moment from 'moment';
@@ -28,7 +28,7 @@ const pluginConfig = (options: ResolvedHopeThemeConfig): PluginConfig[] => {
     ['@mr-hope/components'],
 
     /** 分享插件 */
-    // ['@mr-hope/share', options.share],
+    ['@mr-hope/share', options.share],
 
     /** PWA 插件 */
     ['@mr-hope/pwa', options.pwa],

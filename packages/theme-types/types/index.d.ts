@@ -6,6 +6,8 @@
 
 /// <reference types="@mr-hope/vuepress-plugin-pwa" />
 
+/// <reference types="@mr-hope/vuepress-plugin-share" />
+
 /// <reference types="@mr-hope/vuepress-plugin-theme-color" />
 
 /// <reference types="vuepress-plugin-md-enhance" />

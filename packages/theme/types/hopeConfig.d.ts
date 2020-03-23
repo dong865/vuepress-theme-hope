@@ -7,6 +7,7 @@ import { VuepressConfig, VuepressThemeConfig } from './vuepressConfig';
 import { CommentOptions } from '@mr-hope/vuepress-plugin-comment';
 import { MarkdownEnhanceOption } from 'vuepress-plugin-md-enhance/types';
 import { PWAOptions } from '@mr-hope/vuepress-plugin-pwa';
+import { ShareOption } from '@mr-hope/vuepress-plugin-share';
 import { ThemeColorOptions } from '@mr-hope/vuepress-plugin-theme-color';
 
 /** 页脚配置 */
@@ -81,6 +82,8 @@ export interface HopeThemeConfig extends VuepressThemeConfig {
   pwa?: PWAOptions | false;
   /** 博客设置 */
   blog?: BlogOptions | false;
+  /** 分享设置 */
+  share: ShareOption | false;
 }
 
 /** 处理后的 vuepress-theme-hope 主题配置 */
